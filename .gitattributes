@@ -1,0 +1,5 @@
+# Keep checked-in runtime sources visible in GitHub language statistics.
+dist/*.js linguist-generated=false linguist-vendored=false linguist-language=JavaScript
+
+# The Windows launcher should not dominate repository language stats.
+*.cmd linguist-detectable=false

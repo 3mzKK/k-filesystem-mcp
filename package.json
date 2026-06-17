@@ -1,0 +1,35 @@
+{
+  "name": "k-filesystem-mcp",
+  "version": "2026.1.14-k1",
+  "description": "K edition of the MCP filesystem server for Codex local workflows",
+  "license": "MIT",
+  "mcpName": "k-filesystem-mcp",
+  "author": "3mzKK",
+  "homepage": "https://github.com/3mzKK/k-filesystem-mcp",
+  "bugs": "https://github.com/3mzKK/k-filesystem-mcp/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/3mzKK/k-filesystem-mcp.git"
+  },
+  "type": "module",
+  "bin": {
+    "k-filesystem-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "NOTICE.md",
+    "docs"
+  ],
+  "scripts": {
+    "prepare": "node -e \"console.log('build handled upstream')\""
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.2",
+    "diff": "^5.1.0",
+    "glob": "^10.5.0",
+    "minimatch": "^10.0.1",
+    "zod-to-json-schema": "^3.23.5"
+  }
+}
